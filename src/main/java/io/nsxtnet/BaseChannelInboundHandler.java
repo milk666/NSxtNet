@@ -37,6 +37,7 @@ public class BaseChannelInboundHandler extends SimpleChannelInboundHandler<Objec
             System.out.println("Http Req host name : " + HttpHeaders.getHost(request, "unknown"));
             System.out.println("Http Req URI : " + request.getUri());
             System.out.println("Http Method : " + request.getMethod());
+
         }
 
         final FullHttpResponse response = new DefaultFullHttpResponse(HttpVersion.HTTP_1_1, HttpResponseStatus.OK);
