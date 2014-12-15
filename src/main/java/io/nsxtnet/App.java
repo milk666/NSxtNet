@@ -2,6 +2,7 @@ package io.nsxtnet;
 
 import io.nsxtnet.config.Configuration;
 import io.nsxtnet.config.Environment;
+import io.nsxtnet.example.controller.EchoController;
 import io.nsxtnet.serialization.DefaultSerializationProvider;
 
 import java.io.FileNotFoundException;
@@ -42,7 +43,7 @@ public class App
     {
         // This route supports GET, POST, PUT, DELETE echoing the 'echo' query-string parameter in the response.
         // GET and DELETE are also supported but require an 'echo' header or query-string parameter.
-        server.uri("/test", config.getEchoController());
+        server.uri("/test", EchoController.class);
     }
 
     /**
