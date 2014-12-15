@@ -29,12 +29,12 @@ public abstract class RouteBuilder
 {
 	// SECTION: CONSTANTS
 
-	static final String DELETE_ACTION_NAME = "CmdDelete";
-	static final String GET_ACTION_NAME = "CmdGet";
-	static final String POST_ACTION_NAME = "CmdPost";
-	static final String PUT_ACTION_NAME = "CmdPut";
-	static final String HEAD_ACTION_NAME = "CmdHeaders";
-	static final String OPTION_ACTION_NAME = "CmdOptions";
+	static final String DELETE_ACTION_NAME = "deleteMethod";
+	static final String GET_ACTION_NAME = "getMethod";
+	static final String POST_ACTION_NAME = "postMethod";
+	static final String PUT_ACTION_NAME = "putMethod";
+	static final String HEAD_ACTION_NAME = "headersMethod";
+	static final String OPTION_ACTION_NAME = "optionsMethod";
 	static final List<HttpMethod> DEFAULT_HTTP_METHODS = Arrays.asList(new HttpMethod[] {GET, POST});
 	static final Map<HttpMethod, String> ACTION_MAPPING = new HashMap<HttpMethod, String>();
 

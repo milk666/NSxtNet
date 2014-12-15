@@ -1,14 +1,15 @@
-package io.nsxtnet;
+package io.nsxtnet.example;
 
+import io.nsxtnet.NSxtNet;
 import io.nsxtnet.config.Configuration;
 import io.nsxtnet.config.Environment;
-import io.nsxtnet.example.controller.EchoController;
+import io.nsxtnet.example.EchoController;
 import io.nsxtnet.serialization.DefaultSerializationProvider;
 
 import java.io.FileNotFoundException;
 import java.io.IOException;
 
-public class App 
+public class EchoServer
 {
     public static void main(String[] args) throws Exception
     {

@@ -1,4 +1,4 @@
-package io.nsxtnet.example.controller;
+package io.nsxtnet.example;
 
 import io.nsxtnet.http.Request;
 import io.nsxtnet.http.Response;

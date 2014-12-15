@@ -16,8 +16,7 @@
 package io.nsxtnet.config;
 
 import io.nsxtnet.NSxtNet;
-import io.nsxtnet.config.Environment;
-import io.nsxtnet.example.controller.EchoController;
+import io.nsxtnet.example.EchoController;
 import io.nsxtnet.util.Format;
 
 import java.util.Properties;
